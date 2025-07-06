@@ -5,7 +5,7 @@ import logo from '../assets/svg.png';
 const Navbar = () => {
     return (
         <>
-            <nav className='flex justify-around bg-violet-900 text-white py-2'>
+            <nav className='flex justify-around bg-violet-900 text-white py-2 items-center'>
                 <div className="logo flex items-center gap-3">
                     <img src={logo} className="h-8" alt="iTask Logo" />
                     <span className='font-bold text-xl'>iTask</span>
